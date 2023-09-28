@@ -42,7 +42,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/manjubhaskar02/Interactive-rating-component](https://github.com/manjubhaskar02/Interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://manjubhaskar02.github.io/Interactive-rating-component/](https://manjubhaskar02.github.io/Interactive-rating-component/)
 
 ## My process
 
