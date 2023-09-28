@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body class=" mx-auto grid place-items-center h-screen bg-[var(--Very-Dark-Blue)] w-[375px] xl: w-[1440px]">
+  <div class="main mx-4 p-6  bg-[var(--Dark-Blue)] rounded-lg  ">
+    <img class="motion-safe:animate-spin p-3  bg-[var(--light-Blue)] rounded-full" src="images/icon-star.svg"
+      alt="star">
+    <h1 class="text-white font-bold text-[26px] pt-4"> How did we do?
+    </h1>
+    <p class="py-4 text-[var(--Light-Grey)] font-normal text-[15px]"> Please let us know how we did with your support
+      request. All feedback
+      is
+      appreciated
+      to help us improve our offering!
+    </p>
+    <ul class="py-2 flex text-[var(--Light-Grey)] justify-between hover:text-white   ">
+      <li><button
+          class="btn py-[10px] px-[18px] bg-[var(--light-Blue)] rounded-full ease-in duration-300 transition delay-150  hover:bg-[var(--Orange)] hover:animate-pulse focus:bg-[var(--Medium-Grey)] ">1
+        </button></li>
+      <li><button
+          class="btn py-[10px] px-[18px] bg-[var(--light-Blue)] rounded-full ease-in duration-300 transition delay-150 hover:bg-[var(--Orange)] hover:animate-pulse focus:bg-[var(--Medium-Grey)] ">2
+        </button></li>
+      <li><button
+          class="btn py-[10px] px-[18px] bg-[var(--light-Blue)] rounded-full ease-in duration-300 transition delay-150 hover:bg-[var(--Orange)] hover:animate-pulse focus:bg-[var(--Medium-Grey)] ">3
+        </button></li>
+      <li><button
+          class="btn py-[10px] px-[18px] bg-[var(--light-Blue)] rounded-full ease-in duration-300 transition delay-150 hover:bg-[var(--Orange)] hover:animate-pulse focus:bg-[var(--Medium-Grey)] ">4
+        </button></li>
+      <li><button
+          class="btn py-[10px] px-[18px] bg-[var(--light-Blue)] rounded-full ease-in duration-300 transition delay-150 hover:bg-[var(--Orange)] hover:animate-pulse focus:bg-[var(--Medium-Grey)] ">5
+        </button></li>
+
+    </ul>
+    <div id="submit"
+      class=" mt-4 text-white  py-3 bg-[var(--Orange)] rounded-full text-center font-bold tracking-[0.1rem] ease-in duration-300 transition delay-150 hover:bg-white hover:text-[var(--Orange)]  ">
+      SUBMIT
+    </div>
+  </div>
+
+
+  <div
+    class="credit animate__animated animate__backInDown  hidden  mx-4 p-6  bg-[var(--Dark-Blue)] rounded-lg grid place-items-center text-center ">
+    <img class="sentence animate__animated animate__flip" src="images/illustration-thank-you.svg" alt="">
+    <div id="star-container" class="sentence animate__animated animate__fadeInLeft flex gap-2 pt-4">
+    </div>
+
+    <p
+      class="sentence animate__animated animate__fadeInLeft bg-[var(--light-Blue)] rounded-full text-[var(--Orange)] mt-6 px-4 py-2 text-[15px]">
+      You
+      selected
+      <span id="rating">5</span> out
+      of
+      5
+    </p>
+    <div class="sentence animate__animated animate__fadeInLeft ">
+      <h2 class=" py-4 text-white text-[24px] font-bold">
+        Thank you!
+      </h2>
+      <p class="text-[var(--Light-Grey)] text-[14px]"> We appreciate you
+        taking the time to give a rating. If you
+        ever
+        need more
+        support,
+        don’t hesitate to get in touch!
+      </p>
+    </div>
+    <div id="advance"
+      class="sentence animate__animated animate__fadeInBottomLeft mt-4 text-white px-8  py-3 bg-[var(--Orange)] rounded-full text-center font-bold tracking-[0.1rem] hover:bg-white hover:text-[var(--Orange)]">
+      ADVANCE YOUR RATING
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Manju Bhaskar</a>.
+  </div>
+  <script src="javascript.js"></script>
+
+
+</body>
+
+</html>
