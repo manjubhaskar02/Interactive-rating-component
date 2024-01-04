@@ -24,6 +24,7 @@ submitButton.addEventListener("click", () => {
     }
 })
 
+
 rates.forEach((rate) => {
     rate.addEventListener("click", () => {
         rating.innerHTML = rate.innerHTML
